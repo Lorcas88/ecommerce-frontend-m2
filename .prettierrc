@@ -1,0 +1,8 @@
+{
+  "embeddedLanguageFormatting": "auto",
+  "endOfLine": "crlf",
+  "singleQuote": true,
+  "semi": false,
+  "tabWidth": 2,
+  "useTabs": false
+}
