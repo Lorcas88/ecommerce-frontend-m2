@@ -1,0 +1,60 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Desarrollo de páginas web",
+      "description": "Creación de sitios web modernos, responsivos y optimizados para ofrecer una presencia profesional en internet.",
+      "price": 40000,
+      "img": "/img/service-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Automatización de procesos",
+      "description": "Desarrollo de soluciones que automatizan tareas repetitivas para mejorar la eficiencia y reducir errores operativos.",
+      "price": 40000,
+      "img": "/img/service-2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Análisis de datos",
+      "description": "Procesamiento y análisis de datos para generar información valiosa que ayude en la toma de decisiones.",
+      "price": 50000,
+      "img": "/img/service-3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Desarrollo de software",
+      "description": "Creación de aplicaciones y herramientas personalizadas adaptadas a las necesidades específicas de cada cliente.",
+      "price": 100000,
+      "img": "/img/service-4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Soporte técnico",
+      "description": "Resolución de problemas tecnológicos, mantenimiento de sistemas y asistencia técnica especializada.",
+      "price": 30000,
+      "img": "/img/service-5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Administración de servidores",
+      "description": "Configuración, monitoreo y mantenimiento de servidores para asegurar estabilidad, seguridad y rendimiento.",
+      "price": 50000,
+      "img": "/img/service-6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Creación de bots",
+      "description": "Desarrollo de bots automatizados para redes sociales, atención al cliente o automatización de tareas digitales.",
+      "price": 40000,
+      "img": "/img/service-7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Asesoría tecnológica",
+      "description": "Consultoría especializada para implementar soluciones tecnológicas eficientes en proyectos o empresas.",
+      "price": 20000,
+      "img": "/img/service-8.jpg"
+    }
+  ]
+}
