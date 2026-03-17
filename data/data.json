@@ -5,56 +5,192 @@
       "title": "Desarrollo de páginas web",
       "description": "Creación de sitios web modernos, responsivos y optimizados para ofrecer una presencia profesional en internet.",
       "price": 40000,
-      "img": "/img/service-1.jpg"
+      "img": "/img/service-1.jpg",
+      "delivery": "5 a 7 dias",
+      "mode": "Remoto / Online",
+      "include_support": "Si",
+      "features": [
+        {
+          "title": "Diseño responsive",
+          "description": "Adaptación visual y funcional para móviles, tablets y escritorio."
+        },
+        {
+          "title": "Rendimiento optimizado",
+          "description": "Ajustes iniciales para mejorar tiempos de carga y navegación."
+        },
+        {
+          "title": "Base escalable",
+          "description": "Estructura lista para crecer con nuevas páginas y funcionalidades."
+        }
+      ]
     },
     {
       "id": 2,
       "title": "Automatización de procesos",
       "description": "Desarrollo de soluciones que automatizan tareas repetitivas para mejorar la eficiencia y reducir errores operativos.",
       "price": 40000,
-      "img": "/img/service-2.jpg"
+      "img": "/img/service-2.jpg",
+      "delivery": "3 a 5 dias",
+      "mode": "Remoto / Integrado",
+      "include_support": "Si",
+      "features": [
+        {
+          "title": "Tareas automatizadas",
+          "description": "Eliminación de procesos manuales repetitivos para ahorrar tiempo."
+        },
+        {
+          "title": "Integración operativa",
+          "description": "Conexión con flujos de trabajo y herramientas ya utilizadas."
+        },
+        {
+          "title": "Menos errores",
+          "description": "Reducción de fallos humanos en tareas críticas del negocio."
+        }
+      ]
     },
     {
       "id": 3,
       "title": "Análisis de datos",
       "description": "Procesamiento y análisis de datos para generar información valiosa que ayude en la toma de decisiones.",
       "price": 50000,
-      "img": "/img/service-3.jpg"
+      "img": "/img/service-3.jpg",
+      "delivery": "4 a 6 dias",
+      "mode": "Remoto / Online",
+      "include_support": "Si",
+      "features": [
+        {
+          "title": "Datos ordenados",
+          "description": "Limpieza y estructuración de información para análisis confiables."
+        },
+        {
+          "title": "Métricas visibles",
+          "description": "Visualizaciones claras para identificar patrones y resultados."
+        },
+        {
+          "title": "Reportes accionables",
+          "description": "Informes orientados a facilitar la toma de decisiones."
+        }
+      ]
     },
     {
       "id": 4,
       "title": "Desarrollo de software",
       "description": "Creación de aplicaciones y herramientas personalizadas adaptadas a las necesidades específicas de cada cliente.",
       "price": 100000,
-      "img": "/img/service-4.jpg"
+      "img": "/img/service-4.jpg",
+      "delivery": "10 a 15 dias",
+      "mode": "Remoto / Hibrido",
+      "include_support": "Si",
+      "features": [
+        {
+          "title": "Solucion a medida",
+          "description": "Desarrollo alineado con los objetivos y procesos del cliente."
+        },
+        {
+          "title": "Arquitectura escalable",
+          "description": "Base tecnica pensada para mantenimiento y crecimiento futuro."
+        },
+        {
+          "title": "Funciones de negocio",
+          "description": "Implementación de herramientas ajustadas al flujo real de trabajo."
+        }
+      ]
     },
     {
       "id": 5,
       "title": "Soporte técnico",
       "description": "Resolución de problemas tecnológicos, mantenimiento de sistemas y asistencia técnica especializada.",
       "price": 30000,
-      "img": "/img/service-5.jpg"
+      "img": "/img/service-5.jpg",
+      "delivery": "24 a 72 horas",
+      "mode": "Remoto / Bajo demanda",
+      "include_support": "Si",
+      "features": [
+        {
+          "title": "Diagnostico rapido",
+          "description": "Identificación y resolución de incidencias tecnicas frecuentes."
+        },
+        {
+          "title": "Mantenimiento preventivo",
+          "description": "Revisión periódica para evitar fallos en equipos y sistemas."
+        },
+        {
+          "title": "Asistencia remota",
+          "description": "Soporte a distancia para responder con rapidez a problemas comunes."
+        }
+      ]
     },
     {
       "id": 6,
       "title": "Administración de servidores",
       "description": "Configuración, monitoreo y mantenimiento de servidores para asegurar estabilidad, seguridad y rendimiento.",
       "price": 50000,
-      "img": "/img/service-6.jpg"
+      "img": "/img/service-6.jpg",
+      "delivery": "5 a 8 dias",
+      "mode": "Remoto / Administrado",
+      "include_support": "Si",
+      "features": [
+        {
+          "title": "Monitoreo continuo",
+          "description": "Seguimiento de disponibilidad, consumo y rendimiento del servidor."
+        },
+        {
+          "title": "Seguridad base",
+          "description": "Configuración de accesos y protecciones iniciales del entorno."
+        },
+        {
+          "title": "Estabilidad operativa",
+          "description": "Mantenimiento periódico para prevenir caídas y degradación."
+        }
+      ]
     },
     {
       "id": 7,
       "title": "Creación de bots",
       "description": "Desarrollo de bots automatizados para redes sociales, atención al cliente o automatización de tareas digitales.",
       "price": 40000,
-      "img": "/img/service-7.jpg"
+      "img": "/img/service-7.jpg",
+      "delivery": "4 a 7 dias",
+      "mode": "Remoto / Automatizado",
+      "include_support": "Si",
+      "features": [
+        {
+          "title": "Respuestas automáticas",
+          "description": "Bots preparados para contestar y ejecutar acciones repetitivas."
+        },
+        {
+          "title": "Multiplataforma",
+          "description": "Adaptación del bot a distintos canales y entornos digitales."
+        },
+        {
+          "title": "Reglas de negocio",
+          "description": "Flujos personalizados según condiciones y objetivos del proyecto."
+        }
+      ]
     },
     {
       "id": 8,
       "title": "Asesoría tecnológica",
       "description": "Consultoría especializada para implementar soluciones tecnológicas eficientes en proyectos o empresas.",
       "price": 20000,
-      "img": "/img/service-8.jpg"
+      "img": "/img/service-8.jpg",
+      "delivery": "1 a 3 dias",
+      "mode": "Remoto / Consultivo",
+      "include_support": "No",
+      "features": [
+        {
+          "title": "Evaluacion tecnica",
+          "description": "Analisis de herramientas y opciones segun necesidades reales."
+        },
+        {
+          "title": "Mejoras recomendadas",
+          "description": "Propuestas para optimizar procesos, recursos y sistemas."
+        },
+        {
+          "title": "Decision informada",
+          "description": "Acompañamiento para elegir soluciones tecnologicas con criterio."
+        }
+      ]
     }
   ]
 }

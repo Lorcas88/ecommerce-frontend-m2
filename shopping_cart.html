@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito | LorcasDev Store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body class="d-flex flex-column min-vh-100">
+    <header class="sticky-top"></header>
+
+    <main class="flex-fill mt-5">
+      <section class="container pb-5">
+        <div class="row g-4 align-items-start">
+          <div class="col-12 col-lg-8">
+            <div class="d-flex flex-wrap justify-content-between gap-3 mb-4">
+              <div>
+                <h1 class="mb-2">Carrito de servicios</h1>
+                <p class="mb-0 text-secondary">
+                  Revisa, ajusta cantidades y confirma los servicios
+                  seleccionados.
+                </p>
+              </div>
+
+              <a
+                href="index.html"
+                class="btn btn-outline-light align-self-start"
+              >
+                <i class="bi bi-arrow-left me-2"></i>Seguir explorando
+              </a>
+            </div>
+
+            <div class="card p-3 p-md-4">
+              <div class="table-responsive">
+                <table class="table table-dark align-middle mb-0">
+                  <thead>
+                    <tr>
+                      <th scope="col">Servicio</th>
+                      <th scope="col">Precio</th>
+                      <th scope="col">Cantidad</th>
+                      <th scope="col">Subtotal</th>
+                      <th scope="col" class="text-end">Accion</th>
+                    </tr>
+                  </thead>
+                  <tbody id="cart_items">
+                    <tr>
+                      <td colspan="5" class="text-center text-secondary py-5">
+                        Tu carrito aun no tiene servicios agregados.
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <aside class="card p-4 sticky-lg-top" style="top: 7rem">
+              <h2 class="h4 mb-4">Resumen</h2>
+
+              <div class="d-flex justify-content-between mb-3">
+                <span>Items</span>
+                <span id="summary_items">0</span>
+              </div>
+
+              <div class="d-flex justify-content-between mb-3">
+                <span>Subtotal</span>
+                <span id="summary_subtotal">$0 CLP</span>
+              </div>
+
+              <div class="d-flex justify-content-between mb-3">
+                <span>Implementacion</span>
+                <span id="summary_fee">$0 CLP</span>
+              </div>
+
+              <hr class="border-secondary" />
+
+              <div class="d-flex justify-content-between fs-5 fw-semibold mb-4">
+                <span>Total</span>
+                <span id="summary_total">$0 CLP</span>
+              </div>
+
+              <div class="d-grid gap-3">
+                <button class="btn btn-primary" id="checkout_button">
+                  Solicitar servicio
+                </button>
+                <button class="btn btn-outline-light" id="clear_cart_button">
+                  Vaciar carrito
+                </button>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-center mt-5 p-4"></footer>
+    <script type="module" src="./js/shopping_cart.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
